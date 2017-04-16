@@ -69,7 +69,7 @@ string res=master(55); - получаем выражение для 55
 
 		g++ --share *.o -o libgenerator.so - собираем библиотеку
 
-		sudo cp libgenerato /lib - копируем библиотеку в папку для библиотек
+		sudo cp libgenerator.so /lib - копируем библиотеку в папку для библиотек
 
 		rm *.cpp Gens/*.cpp - удаляем все cpp файлы, если нужно
 

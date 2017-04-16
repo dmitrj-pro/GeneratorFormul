@@ -89,7 +89,7 @@ void GenTest(){
 
 }
 
-int main0(){
+int main(){
 	Generator::Collection::Master master;
 	out<<"help - подсказка\n";
 	while (true){
